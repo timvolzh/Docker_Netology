@@ -1,6 +1,6 @@
 #FROM ubuntu:20.04
 FROM python
-WORKDIR /root/Django_Netology/3.2/stocks_products
+WORKDIR ./image_source
 COPY . .
 RUN apt-get update
 #RUN apt-get install python3-pip
